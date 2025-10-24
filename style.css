@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #04002a;
+  padding: 10px 20px;
+}
+
+nav {
+  font-family: "Inter", Arial, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+
+}
+
+nav h1 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 300;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* coloca o conteúdo um embaixo do outro */
+  align-items: center;
+  /* centraliza horizontalmente */
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  background-color: #222B4B;
+}
+
+
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  justify-content: left;
+  object-fit: cover;
+  border: 2%;
+  border-radius: 50%;
+
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #dcdfe2;
+  margin: 10px;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.foto {
+  width: 100%;
+  height: 68%;
+  object-fit: cover;
+
+}
+
+.quadrados {
+  width: 250;
+  height: 250;
+  display: flex;
+  gap: 120px;
+  margin-top: 10px;
+  position: relative;
+  top: -110px;
+}
+
+.quadrado {
+  width: 180px;
+  height: 200px;
+  background-color: #dcdfe2;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.quadrado img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: top;
+
+}
+
+.btn-download {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  /* distância da lateral direita */
+  padding: 10px 10px;
+  background-color: rgba(15, 231, 7, 0.6);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.btn-download:hover {
+  background-color: rgba(250, 248, 248, 0.9);
+  /* efeito ao passar o mouse */
+}
+.contato {
+  width: 400px;               /* largura da caixinha */
+  margin: 80px auto;          /* centraliza horizontalmente e dá espaço acima */
+  background-color: #ffffff;  /* fundo branco */
+  padding: 30px;              /* espaço interno */
+  border-radius: 10px;        /* cantos arredondados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* sombra para destacar */
+  display: flex;
+  flex-direction: column;     /* organiza verticalmente */
+  gap: 15px;                  /* espaçamento entre elementos */
+  font-family: Arial, sans-serif;
+}
+
+.contato h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contato label {
+  font-weight: bold;
+}
+
+.contato input,
+.contato textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contato button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #04002a;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+
+}
+
+.contato button:hover {
+  background-color: #222b4b;
+}
+.rodape {
+  width: 100%;                /* ocupa toda a largura da página */
+  text-align: center;         /* centraliza o texto horizontalmente */
+  padding: 20px 0;            /* espaçamento acima e abaixo */
+  background-color: #ffffff;  /* cor de fundo opcional */
+  color: rgb(0, 0, 0);               /* cor do texto */
+  font-size: 16px;
+}
