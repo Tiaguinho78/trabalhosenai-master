@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="script.js">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -31,38 +31,41 @@
     <div class="quadrados">
       <div class="quadrado">
         <img src="imagens/foto1.jpg" alt="Imagem 1">
-        <a href="imagens/foto1.jpg" download class="btn-download">download</a>
+          <button class="btn-download">Download</button>
       </div>
       <div class="quadrado">
         <img src="imagens/foto2.jpg" alt="Imagem 2">
-        <a href="imagens/foto2.jpg" download class="btn-download">download</a>
+          <button class="btn-download">Download</button>
       </div>
       <div class="quadrado">
         <img src="imagens/foto3.jpg" alt="Imagem 3">
-        <a href="imagens/foto3.jpg" download class="btn-download">download</a>
+      <button class="btn-download">Download</button>
+
       </div>
     </div>
 
 
-<Div class="contato">
+<div class="contato">
 <h1>Entre em Contato</h1>
+    <form id="form-contato">
 
 <label for="nome">Nome</label>
- <input type="text" id="nome" placeholder="Digite o seu nome">
+<input type="text" id="nome" placeholder="Digite o seu nome">
 
-<label for="telefone">telefone</label>
- <input type="text" id="telefone" placeholder="Digite o seu telefone">
+<label for="telefone">Telefone</label>
+<input type="tel" id="telefone" placeholder="Digite o seu telefone">
 
 <label for="email">Email</label>
- <input type="text" id="email" placeholder="Digite o seu email">
+<input type="email" id="email" placeholder="Digite o seu email">
 
-<label for="duvida">Duvida</label>
- <input type="text" id="duvida" placeholder="Qual a sua duvida?">
+<label for="duvida">Dúvida</label>
+<input type="text" id="duvida" placeholder="Qual a sua dúvida?">
+
 
 <button type="submit">Enviar</button>
-
-
-</Div>
+</form>
+<div class="mensagem-sucesso"></div>
+</div>
   </main>
 
   <section></section>
