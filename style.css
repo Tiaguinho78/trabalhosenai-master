@@ -98,12 +98,10 @@ main {
 }
 
 .quadrado {
-  width: 180px;
-  height: 200px;
-  background-color: #dcdfe2;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
+    display: flex;
+    flex-direction: column;     /* garante que o botão fique abaixo da imagem */
+    align-items: center;        /* centraliza imagem e botão */
+    gap: 10px;                  /* espaço entre imagem e botão */
 }
 
 .quadrado img {
