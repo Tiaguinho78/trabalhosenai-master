@@ -64,7 +64,7 @@ main {
 }
 
 .quadrado {
- display: flex;              /* deixa os quadrados em linha */
+display: flex;              /* deixa os quadrados em linha */
     justify-content: space-around; /* espaço entre eles */
     align-items: flex-end;      /* alinha o conteúdo embaixo */
     margin-top: 20px;
@@ -82,7 +82,7 @@ main {
 
 .foto {
   width: 100%;
-  height: 48%;
+  height: 65%;
   object-fit: cover;
 
 }
@@ -98,10 +98,12 @@ main {
 }
 
 .quadrado {
-    display: flex;
-    flex-direction: column;     /* garante que o botão fique abaixo da imagem */
-    align-items: center;        /* centraliza imagem e botão */
-    gap: 10px;                  /* espaço entre imagem e botão */
+  width: 180px;
+  height: 200px;
+  background-color: #dcdfe2;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
 .quadrado img {
