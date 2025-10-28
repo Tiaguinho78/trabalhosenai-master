@@ -94,7 +94,7 @@ main {
   gap: 120px;
   margin-top: 10px;
   position: relative;
-  top: -110px;
+  top: 0;
 }
 
 .quadrado {
